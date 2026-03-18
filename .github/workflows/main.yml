@@ -1,0 +1,10 @@
++ name: GitHhub Example
++ on:
++  push:
++   branches: [main]
++ jobs:
++  demo:
++   runs-on: ubuntu-latest
++   steps:
++   -name: Checkout repository
++    run: echo "indext.html"
